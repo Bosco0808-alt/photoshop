@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildDate</key>
+	<string>"Sat Sep 24 2011 22:49:16"</string>
+	<key>BuildVersion</key>
+	<string>"6.0.0.24"</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>UpdaterNotifications</string>
+	<key>CFBundleGetInfoString</key>
+	<string>UpdaterNotifications 6.0.0.24, Copyright 2009 - 2011 Adobe Systems Incorporated. All rights reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adobe.AAM.AdobeUpdaterNotificationFramework</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>CFBundleName</key>
+	<string>UpdaterNotifications</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>UpdaterNotifications 6.0.0.24</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>6.0.0.24</string>
+	<key>ProductVersion</key>
+	<string>6.0.0.24 (BuildVersion: 1.0; BuildDate: Sat Sep 24 2011 22:49:16)</string>
+</dict>
+</plist>

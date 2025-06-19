@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildDate</key>
+	<string>2012/01/17-15:11:19</string>
+	<key>BuildID</key>
+	<string>19230</string>
+	<key>BuildVersion</key>
+	<string>66.145433</string>
+	<key>CFBundleExecutable</key>
+	<string>FileInfo</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Adobe XMP FileInfo 5 . 3 . 0 . 0 -i 3, Copyright 2002-2011, Adobe Systems Incorporated. All Rights Reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adobe.FileInfo.framework</string>
+	<key>CFBundleName</key>
+	<string>FileInfo</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>Adobe XMP FileInfo 5 . 3 . 0 . 0 -i 3</string>
+	<key>CFBundleSignature</key>
+	<string>XMP </string>
+	<key>CFBundleVersion</key>
+	<string>66.145433</string>
+	<key>Configuration</key>
+	<string>Release</string>
+	<key>FileVersion</key>
+	<string>5 . 3 . 0 . 0 -i 3, 66.145433, 2012/01/17-15:11:19</string>
+	<key>ProductName</key>
+	<string>FileInfo</string>
+	<key>ProductVersion</key>
+	<string>XMP_API_VERSION</string>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildDate</key>
+	<string>Tuesday February 7 2012 15:27:26</string>
+	<key>CFBundleExecutable</key>
+	<string>WRServices</string>
+	<key>CFBundleGetInfoString</key>
+	<string>WRServices 5.0.0, Copyright (c) 1993 - 2012 Winsoft SA., Copyright (c) 2007 Adobe Systems, Inc.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.winsoft.wrservices</string>
+	<key>CFBundleName</key>
+	<string>WRServices</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>WRServices 5.0.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>5.0.0</string>
+	<key>Configuration</key>
+	<string>FullRelease</string>
+	<key>FileVersion</key>
+	<string>5.0.0.1000</string>
+	<key>ProductVersion</key>
+	<string>0.17175</string>
+</dict>
+</plist>

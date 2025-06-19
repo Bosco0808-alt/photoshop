@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildDate</key>
+	<string>Xxx Xxx dd dddd hh:mm:ss</string>
+	<key>BuildVersion</key>
+	<string>62.490293</string>
+	<key>CFBundleExecutable</key>
+	<string>aif_ocl</string>
+	<key>CFBundleGetInfoString</key>
+	<string>AdobeAIF 3.0.00, Copyright © 2005-2012 Adobe Systems Incorporated.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adobe.AIF</string>
+	<key>CFBundleName</key>
+	<string>AdobeAIF</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>AdobeAIF 3.0.00</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>3.0.00</string>
+	<key>Configuration</key>
+	<string>AIF Release</string>
+</dict>
+</plist>

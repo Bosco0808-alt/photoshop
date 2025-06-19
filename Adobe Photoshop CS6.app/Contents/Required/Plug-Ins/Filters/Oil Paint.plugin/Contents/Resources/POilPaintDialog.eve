@@ -1,0 +1,97 @@
+PDialog(placement:         place_row, 
+		margin:            5, 
+        window_title:      '$$$/Project/OilPaintPlugin/Dialog/Title/Default=Oil Paint', 
+        window_features:   kWin_CanMove + 
+                           kWin_CanSize + 
+                           kWin_HasSizeBox + 
+                           kWin_LiveResize + 
+                           kWin_CanTarget + 
+                           kWin_CanBullseye, 
+        window_position_x: -50, 
+        window_position_y: -33, 
+        view_id:           'Project/OilPaintPlugin/Dialog') 
+ { 
+     text_font = kFont_UIMedium; 
+     label_font = kFont_UIMedium; 
+     bold_label_font = kFont_UIMediumBold; 
+     control_font = kFont_UIMedium; 
+     push_button_font = kFont_UIMedium; 
+     group_title_font = kFont_UIMedium; 
+      
+     CFramePane(placement:		place_column, 
+                horizontal:		align_fill, 
+                vertical:		align_fill, 
+                margin:			3, 
+                margin_right:	5, 
+                view_binding:	kBind_Sizeable) 
+     { 
+         PPreviewScroller(placement:				place_offscreen, 
+                           horizontal:				align_fill, 
+                           vertical:				align_fill, 
+                           view_options:			kView_Target, 
+                           view_binding:			kBind_Sizeable, 
+                           view_id:					'Project/OilPaintPlugin/Dialog/Preview/Scroller', 
+                           scroller_attributes:		kScroller_XBar + kScroller_YBar + kScroller_WellFrame, 
+                           scroller_gap_left:		kZoomCombo_DefaultWidth) 
+         { 
+             CZoomProgressCombo(frame_interior:		kInterior_ScrollerGapLeft, 
+                                view_binding:		kBind_FixedBottomLeft, 
+                                view_id:			'Project/OilPaintPlugin/Dialog/ZoomCombo', 
+                                in_scroll_gap:		true); 
+             PPreviewPane(width:				384, 
+                           height:				384, 
+                           frame_interior:		kInterior_ScrollerPane, 
+                           view_options:		kView_Target + kView_Bullseye + kView_ContextClick + kView_DrawParts + kView_BigCoordinates, 
+                           view_binding:		kBind_Sizeable + kBind_Scrollable, 
+                           view_id:				'Project/OilPaintPlugin/Dialog/Preview/Pane', 
+                           zoom_min:			'0.001', 
+                           zoom_max:			'16.000', 
+                           fit_in_view_cushion:	3); 
+         } 
+     } 
+  
+     CFramePane(placement:		place_column, 
+                horizontal:		align_right, 
+                vertical:		align_fill, 
+                view_binding:	kBind_FixedRight + kBind_YSizeable, 
+                view_id:		'Project/OilPaintPlugin/Dialog/ParamPane') 
+     { 
+         CFramePane(placement:		place_column, 
+                    horizontal:		align_fill, 
+                    vertical:		align_top, 
+                    margin:			8, 
+                    margin_bottom:	15, 
+                    spacing:		8, 
+                    view_binding:	kBind_FixedTopRight, 
+                    view_id:		'Project/OilPaintPlugin/Dialog/ParameterFrame') 
+         { 
+             CPushButton(width:				140, 
+                         horizontal:		align_center, 
+                         vertical:			align_top, 
+                         view_binding:		kBind_FixedTopRight, 
+                         view_id:			'Project/OilPaintPlugin/Dialog/OKButton', 
+                         button_label:		'$$$/Project/OilPaintPlugin/Dialog/OKButton=OK', 
+                         push_button_font:	kFont_UILarge, 
+                         default_button:	true); 
+						 
+             CPushButton(width:				140, 
+                         horizontal:		align_center, 
+                         vertical:			align_top, 
+                         view_options:		kView_SupressSurrenders, 
+                         view_binding:		kBind_FixedTopRight, 
+                         view_id:			'Project/OilPaintPlugin/Dialog/CancelButton', 
+                         button_label:		'$$$/Project/OilPaintPlugin/Dialog/CancelButton=Cancel', 
+                         push_button_font:	kFont_UILarge, 
+                         cancel_button:		true); 
+         } 
+         POilPaintParameterPane(placement:      place_column, 
+								horizontal:     align_center, 
+								vertical:       align_fill,
+								width:          270,
+								margin:         0,
+								view_binding:   kBind_FixedRight + kBind_YSizeable, 
+								view_id:        'Project/OilPaintPlugin/Dialog/Panel/ParamEnclosure') 
+		{ 
+		}
+     } 
+ } 

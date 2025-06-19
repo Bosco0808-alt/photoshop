@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Resources/English.lproj/InfoPlist.strings</key>
+		<data>
+		PhmohZU7gZnPH4m0GYoAqZBEv2U=
+		</data>
+		<key>Resources/Info.plist</key>
+		<data>
+		hp6pROb4EyijC4Gz43ChUKuCC3A=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/SetupAliasTemplate$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>30</real>
+		</dict>
+		<key>^Resources/UninstallData\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

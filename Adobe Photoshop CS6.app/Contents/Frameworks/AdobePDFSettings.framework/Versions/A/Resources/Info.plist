@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleGetInfoString</key>
+	<string>AdobePDFSettings 1.04.0, Copyright © 2004-2008 Adobe Systems Incorporated.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adobe.PDFSettings</string>
+	<key>CFBundleName</key>
+	<string>AdobePDFSettings</string>
+	<key>CFBundleExecutable</key>
+	<string>AdobePDFSettings</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>AdobePDFSettings 1.04.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.4</string>
+	<key>Configuration</key>
+	<string>PDFSettings Release</string>
+</dict>
+</plist>

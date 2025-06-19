@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildDate</key>
+	<string>Fri Sep 02 2011 09:20:02</string>
+	<key>BuildVersion</key>
+	<string>1.276181</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>adobe_caps</string>
+	<key>CFBundleGetInfoString</key>
+	<string>adobe_caps 6.0.29.0, Copyright © 2005-2011 Adobe Systems Incorporated. All rights reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adobe.adobe_caps</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>adobe_caps</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>adobe_caps 6.0.29.0</string>
+	<key>CFBundleSignature</key>
+	<string>ADBE</string>
+	<key>CFBundleVersion</key>
+	<string>6.0.29.0</string>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Resources/CSResizeGripperIcon.png</key>
+		<data>
+		lVHe95Gn+ja/vUOiEyrYo1yjDl0=
+		</data>
+		<key>Resources/CSResizeGripperIconRollover.png</key>
+		<data>
+		lVHe95Gn+ja/vUOiEyrYo1yjDl0=
+		</data>
+		<key>Resources/HorizontalResizeCursor.png</key>
+		<data>
+		h3m9xj/uB7/I5OAPPIQxdUug1gs=
+		</data>
+		<key>Resources/Info.plist</key>
+		<data>
+		SivF7zqUvt4QmzdWIJnpP/pGYyg=
+		</data>
+		<key>Resources/LeftBottomResizeCursor.png</key>
+		<data>
+		agujm4JRupspUiIfB9vtqAlJM2o=
+		</data>
+		<key>Resources/RightBottomResizeCursor.png</key>
+		<data>
+		mdZHlSUatgAcmpDihPi7xHR0xko=
+		</data>
+		<key>Resources/SP_PL_GenericPalette_N.png</key>
+		<data>
+		1yU7McMy5m1tbeQTd52IFlrMbhc=
+		</data>
+		<key>Resources/SP_PL_GenericPalette_N_D.png</key>
+		<data>
+		ViXQv7rK0AHa0BpPq6zxicyrUYk=
+		</data>
+		<key>Resources/VerticalResizeCursor.png</key>
+		<data>
+		bLAYQ1c2haYKhdLqAboiSDm5hJo=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^Resources/[aA][mM][tT]/[aA]pplication.xml$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>30</real>
+		</dict>
+	</dict>
+</dict>
+</plist>
